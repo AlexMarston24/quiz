@@ -6,7 +6,7 @@ def main():
     give_feedback()
     
 def genRandomNumber():
-    num = random.randint(1, 100)
+    secretNumber = random.randint(1, 100)
 
  
 def give_feedback():
