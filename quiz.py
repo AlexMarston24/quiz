@@ -1,14 +1,22 @@
 
 import random
 def main():
+    play_game()
     genRandomNumber()
     playerGuess()
     give_feedback()
     
 def genRandomNumber():
     secretNumber = random.randint(1, 100)
-
- 
+    
+   print("try the guessing game")
+   print("I have selected a number between 1 and 100, try to guess it")
+   if guessed_number == secretnumber:
+def play_game():
+    secretnumber=random.randint(1,100)
+    attempts=0
+    guessed_number = int(input("enter your guess"))
+    
 def give_feedback():
     if(int(guess) > secretNumber):
         print("Too high")
@@ -39,3 +47,4 @@ def playerGuess():
 
 if __name__ == "__main__":
     main()
+
